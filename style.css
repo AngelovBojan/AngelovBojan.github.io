@@ -1,27 +1,41 @@
-body {
-    font-family: Raleway !important;
-   
+
+ body {
+    font-family: Raleway !important;  
 }
-#Home{
-     background-image: url(file:///C:/bojan/programi/web%20dev/freelance/Pance_Prendjov_Backend_Web_Developer_Portfolio/image-landing.jpg) !important;
-     
+.landing-text{
+    margin-top: 30% !important;
 }
 .nav-link{
-    
+    color: white !important;
     font-size: 18px !important;
     padding-left: 50px !important;
 }
-.navbar-brand{
-    color: white !important;
+
+@media only screen and (max-width: 600px){
+    #Home{
+        background-image: url('image-mobile.jpg');
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: 90% !important;
+        background-attachment: fixed;
+    }
 }
-.landing-text{
-    margin-top: 15% !important;
-    margin-left: 2% !important;
+
+@media only screen and (max-width: 600px) {
+    #Heading-Landing {
+        font-family: Raleway !important;
+        font-size: 50px !important;
+        font-weight: 900 !important;
+        color: black;
+        margin-top: 50% !important;
+    }
 }
+
 #Heading-Landing{
     font-family: Raleway !important;
     font-size: 50px !important;
     font-weight: 900 !important;
+    color: black;
 }
 #Paragraph-Landing{
     font-family: Raleway !important;
@@ -39,50 +53,4 @@ body {
     text-decoration: underline !important;
     font-weight: 700 !important;
 }
-#Name-Landing{
-     font-family: Raleway !important;
-     font-weight: 500 !important;
-     color: #878a8f !important;
-     font-size: 16px !important;
-     margin-top: 3% !important;
-}
 
-
-#Recent-works{
-    margin-top: 10% !important;
-    background-color: #f2f2f2 !important;
-    padding: 200px;
-}
-#Heading-Recent-Works{
-    margin-bottom: 3% !important;
-     font-family: Raleway !important;
-     font-size: 50px !important;
-     font-weight: 900 !important;
-}
-#About-Me {
-    margin-top: 10% !important;
-    padding: 200px !important;
-}
-#Heading-About-Me{
-    font-family: Raleway !important;
-    font-size: 50px !important;
-    font-weight: 900 !important;
-}
-
-#project{
-     font-family: Raleway !important;
-}
-
-#AboutMe {
-    margin-top: 40%;
-    background-color: #f2f2f2;
-    
-
-}
-
-.progress{
-    width: 50% !important;
-}
-.progress-bar{
-    background-color:#22d1ee !important;
-}
