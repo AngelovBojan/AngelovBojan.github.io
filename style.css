@@ -1,6 +1,11 @@
 
  body {
-    font-family: Raleway !important;  
+    font-family: Raleway !important;
+    background-image: url('image-landing.jpg');
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 70% !important;
+    background-attachment: fixed !important;
 }
 .landing-text{
     margin-top: 30% !important;
@@ -17,7 +22,7 @@
         background-position: center !important;
         background-repeat: no-repeat !important;
         background-size: 90% !important;
-        background-attachment: fixed;
+        background-attachment: fixed !important;
     }
 }
 
