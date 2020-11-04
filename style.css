@@ -4,8 +4,8 @@
     background-image: url('image-landing.jpg');
     background-position: center !important;
     background-repeat: no-repeat !important;
-    background-size: 70% !important;
-    background-attachment: fixed !important;
+    background-size: cover !important;
+    
 }
 .landing-text{
     margin-top: 30% !important;
