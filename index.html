@@ -12,19 +12,27 @@
 <body>
 
 <!------------------------------------------- NAVBAR ------------------------------------------->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #151515 !important ;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Recent Work's</a>
-            <a class="nav-link" href="#">About me</a>
-            <a class="nav-link" href="#">Contact me</a>
-        </div>
-    </div>
-</nav>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top " style="background-color: black;" >
+		<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     		 <span class="navbar-toggler-icon"></span>
+    	</button>
+		     <div class="collapse navbar-collapse" id="navbarNav">
+		        <ul class="navbar-nav mr-auto">
+		          <li class="nav-item active">
+		              <a class="nav-link" id="HOME1" href="#Home">Home <span class="sr-only">(current)</span> </a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" id="Aboutme1" href="#Recent-Works">Recent Works</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" id="Service1" href="#About-Me">About</a>
+		          </li>
+		          <li class="nav-item">
+		              <a class="nav-link" id="Portfolio1" href="#Contact-Me">Contact</a>
+		            </li>
+		        </ul>
+		      </div>
+    </nav>
 <!------------------------------------------- NAVBAR ------------------------------------------->
 
 <!------------------------------------------- LANDING-PAGE ------------------------------------------->
@@ -52,10 +60,125 @@
 <br>
 <!------------------------------------------- RECENT-WORK'S ------------------------------------------->
 <section id="Recent-Works">
-        <h2>Recent Work's</h2>
+    <div class="container">
+        <h2 id="Heading-Recent-Works">Recent Work's</h2>
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 projects">
+                <p><span class="project-name">Project Name</span>
+                <br>
+                <span class="project-details">Project Details</span>
+                <br>
+                <span class="project-tech">Technology Stack - Python, Tweepy(API library) and Scrapy(Scraping library)</span>
+                </p>
+            </div>
+
+             <div class="col-lg-6 col-sm-12 projects">
+                <p><span class="project-name">Project Name</span>
+                <br>
+                <span class="project-details">Project Details</span>
+                <br>
+                <span class="project-tech">Technology Stack - Python, Tweepy(API library) and Scrapy(Scraping library)</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------- RECENT-WORK'S ------------------------------------------->
+
+<!------------------------------------------- ABOUT-ME ------------------------------------------->
+<section id="About-Me">
+    <div class="container">
+        <p class="Heading-About-Me">A FEW WORDS ABOUT ME</p>
+
+        <p class="Biography">
+            I’m Damian Watracz, a multidisciplinary designer who focuses on telling my clients’ stories visually, through enjoyable and meaningful experiences. I specialize in responsive websites and functional user interfaces.
+        </p>
+        <br>
+        <br>
+        <p class="Work-Experience">
+            Over the past 9 years I have been working with big companies and rising startups around the world as a designer and art director, working solo and leading small design teams. In my spare time I enjoy photography and motorcycle adventures.
+        </p>
+
+        <img src="image-about-me.jpg" alt="" class="Image-About-Me">
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <p class="Heading-Service">SERVICES</p>
+                <p class="Services">Art direction / Web & mobile / Brand <br> 
+                    identity / UX & UI / Iconography / <br>
+                        Animation / Photography
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+                <p class="Heading-Service">TOOLS I USE</p>
+                <p class="Services">Art direction / Web & mobile / Brand <br> 
+                    identity / UX & UI / Iconography / <br>
+                        Animation / Photography
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------- ABOUT-ME ------------------------------------------->
+
+<!------------------------------------------- CONTACT-ME ------------------------------------------->
+
+<section id="Contact-Me">
+    <div class="container">
+        <h2 id="Heading-Contact-Me">Get in touch — let’s work together.</h2>
+        <p id="Paragraph-Contact-Me">Got a project? Drop me a line if you want to work together on something exciting. Big or small. </p>
+
+      <form>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-sm-12 mb-3 col-md-12 offset-lg-3">
+
+					  <div class="form-group">
+					    <label for="exampleInputEmail1"></label>
+					    <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Name :" required="#">
+					    <small id="emailHelp" class="form-text text-muted"></small>
+					  </div>
+
+					  <div class="form-group">
+					    <label for="exampleInputEmail1"></label>
+					    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Subject :" required="#">
+					    <small id="emailHelp" class="form-text text-muted"></small>
+					  </div>
+
+					  <div class="form-group">
+					    <label for="exampleInputPassword1"></label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email :" required="#">
+					  </div>
+
+					 <div class="form-group">
+			    		<label for="exampleFormControlTextarea1"></label>
+			   			 <textarea class="form-control "  id="exampleFormControlTextarea1"  rows="3"  placeholder="Your Message :" required="#"></textarea>
+			 		 </div>
+
+				 <button type="submit" class="btn btn-dark btn-lg button-contactme">Send Message</button>
+
+					</div>
+				</div>
+				
+			</div>
+			
+
+	</form>
+    </div>
 </section>
 
-<p></p>
+
+
+
+
+
+
+
+
 
 <script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
