@@ -41,18 +41,16 @@
     <div class="row">
         <div class="col-lg-6 col-sm-12 landing-text">
             
-            <h2 id="Heading-Landing">What is Lorem Ipsum?</h2>
-            <p id="Paragraph-Landing">Lorem Ipsum is simply dummy text of the printing and typesetting 
-                industry. Lorem Ipsum has been the industry's standard dummy 
-                text ever since the 1500s, when an unknown printer took a galley 
-                of type and scrambled it to make a type specimen book. It has 
-                survived not only five centuries,</p>
+            <h2 id="Heading-Landing">Junior Back-End Developer</h2>
+            <p id="Paragraph-Landing">During this year, I have finished a full back-end .net academy,
+	                and developed a graduation project and succesfully got a diploma.
+	                Now I am working on developing additional projects going on a practice
+	                in the same company where i attended the full academy and I am gaining
+	                some experience.</p>
 
                 <h5><a href="#" class="Links-Landing">View Projects</a>&nbsp;&nbsp;&nbsp;<span id="Paragraph-Landing" style="font-size: 16px !important;">or</span>&nbsp;&nbsp;&nbsp;<a href="#" class="Links-Landing">Read About Me</a></h5>
         </div>
-        <div class="col-lg-6 image-landing">
-            <img src="" alt="">
-        </div>
+        
     </div>
 </div>
 </section>
@@ -92,12 +90,18 @@
         <p class="Heading-About-Me">A FEW WORDS ABOUT ME</p>
 
         <p class="Biography">
-            I’m Damian Watracz, a multidisciplinary designer who focuses on telling my clients’ stories visually, through enjoyable and meaningful experiences. I specialize in responsive websites and functional user interfaces.
+           I'm Pance Prendjov, a junior back-end developer who focuses on creating
+	        everything my client will ask for, through gaining enjoyable an meaningful
+	        experience..
         </p>
         <br>
         <br>
         <p class="Work-Experience">
-            Over the past 9 years I have been working with big companies and rising startups around the world as a designer and art director, working solo and leading small design teams. In my spare time I enjoy photography and motorcycle adventures.
+           During this year, I have finished a full back-end .net academy,
+            and developed a graduation project and succesfully got a diploma.
+            Now I am working on developing additional projects going on a practice
+            in the same company where i attended the full academy and I am gaining
+            some experience.
         </p>
 
         <img src="image-about-me.jpg" alt="" class="Image-About-Me">
@@ -107,17 +111,13 @@
         <div class="row">
             <div class="col-lg-6 col-sm-12">
                 <p class="Heading-Service">SERVICES</p>
-                <p class="Services">Art direction / Web & mobile / Brand <br> 
-                    identity / UX & UI / Iconography / <br>
-                        Animation / Photography
+                <p class="Services"> Databases / Windows Forms / WEB APIs
                 </p>
             </div>
 
             <div class="col-lg-6 col-sm-12">
                 <p class="Heading-Service">TOOLS I USE</p>
-                <p class="Services">Art direction / Web & mobile / Brand <br> 
-                    identity / UX & UI / Iconography / <br>
-                        Animation / Photography
+                <p class="Services">Visual Studio / SQL Server Management Studio
                 </p>
             </div>
         </div>
@@ -132,34 +132,34 @@
         <h2 id="Heading-Contact-Me">Get in touch — let’s work together.</h2>
         <p id="Paragraph-Contact-Me">Got a project? Drop me a line if you want to work together on something exciting. Big or small. </p>
 
-      <form>
+      <form class="contact-form" action="contactfrom.php" method = "post">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-sm-12 mb-3 col-md-12 offset-lg-3">
 
 					  <div class="form-group">
 					    <label for="exampleInputEmail1"></label>
-					    <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Name :" required="#">
+					    <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Name :" required="#" name="name">
 					    <small id="emailHelp" class="form-text text-muted"></small>
 					  </div>
 
 					  <div class="form-group">
 					    <label for="exampleInputEmail1"></label>
-					    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Subject :" required="#">
+					    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Subject :" required="#" name="subject">
 					    <small id="emailHelp" class="form-text text-muted"></small>
 					  </div>
 
 					  <div class="form-group">
 					    <label for="exampleInputPassword1"></label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email :" required="#">
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email :" required="#" name="mail">
 					  </div>
 
 					 <div class="form-group">
 			    		<label for="exampleFormControlTextarea1"></label>
-			   			 <textarea class="form-control "  id="exampleFormControlTextarea1"  rows="3"  placeholder="Your Message :" required="#"></textarea>
+			   			 <textarea class="form-control "  id="exampleFormControlTextarea1"  rows="3"  placeholder="Your Message :" required="#" name="message"></textarea>
 			 		 </div>
 
-				 <button type="submit" class="btn btn-dark btn-lg button-contactme">Send Message</button>
+				 <button type="submit" class="btn btn-dark btn-lg button-contactme" name="submit">Send Message</button>
 
 					</div>
 				</div>
@@ -171,7 +171,7 @@
     </div>
 </section>
 
-
+<!------------------------------------------- CONTACT-ME ------------------------------------------->
 
 
 

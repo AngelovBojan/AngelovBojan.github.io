@@ -7,7 +7,7 @@
    margin-top: 8% !important;
 }
 #Home{
- background-image: url('image-landing-2.jpg');
+ background-image: url('image-landing.jpg');
  background-position: center !important;
  background-repeat: no-repeat !important;
  background-size: cover !important;
@@ -24,9 +24,16 @@
 .nav-link{
     color: white !important;
     font-size: 18px !important;
-    padding-left: 50px !important;
+   margin-left: 50px !important;
 }
 
+.nav-link:hover{
+    color: white !important;
+    font-size: 18px !important;
+    margin-left: 50px !important;
+    border-bottom: 3px solid #22d1ee !important;
+    transition: ease-in 0.3s !important;
+}
 #Heading-Landing{
     font-family: Raleway !important;
     font-size: 50px !important;
