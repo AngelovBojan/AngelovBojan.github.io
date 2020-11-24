@@ -5,6 +5,8 @@
 }
 #About-Me{
    margin-top: 8% !important;
+   padding-bottom: 100px !important;
+   padding-top: 100px !important;
 }
 #Home{
  background-image: url('image-landing.jpg');
@@ -12,11 +14,12 @@
  background-repeat: no-repeat !important;
  background-size: cover !important;
  padding-bottom: 100px !important; 
+ padding-top: 100px !important;
  }
 
  #Recent-Works{
     
-     padding: 10px !important;
+     
  }
 .landing-text{
     margin-top: 30% !important;
@@ -24,15 +27,14 @@
 .nav-link{
     color: white !important;
     font-size: 18px !important;
-   margin-left: 50px !important;
 }
 
 .nav-link:hover{
     color: white !important;
     font-size: 18px !important;
-    margin-left: 50px !important;
+   
     border-bottom: 3px solid #22d1ee !important;
-    transition: ease-in 0.3s !important;
+    
 }
 #Heading-Landing{
     font-family: Raleway !important;
@@ -53,8 +55,9 @@
 
 .Links-Landing:hover {
     color: black !important;
-    text-decoration: underline !important;
+   border: 2px black solid !important;
     font-weight: 700 !important;
+    padding: 10px !important;
 }
 
 #Heading-Recent-Works{
@@ -145,4 +148,20 @@ input[type="color"]:focus,
     border-color:black !important;
     outline: 0;
     box-shadow: 0 3px 3px black !important;
+}
+
+#Footer{
+    background-color: black !important;
+    color: white !important;
+    padding-bottom: 100px !important;
+    padding-top: 100px !important;
+}
+#Contact-Me{
+    padding-bottom: 100px !important;
+    padding-top: 100px !important;
+}
+.active {
+    border: 1px white solid  !important;
+    
+    border-radius: 2% !important;
 }
