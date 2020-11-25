@@ -165,3 +165,19 @@ input[type="color"]:focus,
     
     border-radius: 2% !important;
 }
+.fa-linkedin{
+    font-size: 30px !important;
+}
+.fa-instagram{
+    font-size: 30px !important;
+}
+.fa-facebook{
+    font-size: 30px !important;
+}
+.Social-Media{
+    color: white !important;
+}
+
+.Social-Media:hover {
+    color: #22d1ee !important;
+}
