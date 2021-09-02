@@ -178,3 +178,24 @@
 .BODY[light-mode="dark"] .subeading-landing-page span:nth-child(2) {
     color: #ACB8CB !important;
 }
+.BODY[light-mode="dark"] .subeading-landing-page {
+    font-size: 24px !important;
+    font-weight: medium !important;
+    display: inline-block;
+    padding-bottom: 0.20rem; 
+    position: relative;
+  }
+.BODY[light-mode="dark"] .subeading-landing-page::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ACB8CB !important;
+    transition: width 0.25s ease-out;
+  }
+
+  .BODY[light-mode="dark"] .subeading-landing-page:hover::before {
+    width: 100%;
+  }
