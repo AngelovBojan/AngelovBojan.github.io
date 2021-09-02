@@ -8,16 +8,16 @@ function toggle_light_mode() {
         app.setAttribute("light-mode", "dark");
     }
 
-    if($(".image-landing-page").attr('src') != "file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/urn_aaid_sc_US_142398be-60e1-4fe3-b17e-75d32ddb1379.png"){
-        $(".image-landing-page").attr("src","file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/urn_aaid_sc_US_142398be-60e1-4fe3-b17e-75d32ddb1379.png");
+    if($(".image-landing-page").attr('src') != "Images/urn_aaid_sc_US_142398be-60e1-4fe3-b17e-75d32ddb1379.png"){
+        $(".image-landing-page").attr("src","Images/urn_aaid_sc_US_142398be-60e1-4fe3-b17e-75d32ddb1379.png");
       } else {
-        $(".image-landing-page").attr("src","file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/Group%20120.svg");
+        $(".image-landing-page").attr("src","Images/Group%20120.svg");
       }
 
-      if($(".navbar-logo").attr('src') != "file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/Group%20115.png"){
-        $(".navbar-logo").attr("src","file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/Group%20115.png");
+      if($(".navbar-logo").attr('src') != "Images/Group%20115.png"){
+        $(".navbar-logo").attr("src","Images/Group%20115.png");
       } else {
-        $(".navbar-logo").attr("src","file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/Group%20115-dark-mode.png");
+        $(".navbar-logo").attr("src","Images/Group%20115-dark-mode.png");
       }
 }
 
