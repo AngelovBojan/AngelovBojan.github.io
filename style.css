@@ -1,6 +1,6 @@
 .BODY{
     font-family: 'Barlow Condensed' !important;
-    background: transparent url('file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/Group%20111.svg') 0% 0% no-repeat padding-box;
+    background: transparent url('Group%20111.svg') 0% 0% no-repeat padding-box;
 }
 
 .image-landing-page{
@@ -41,17 +41,15 @@
     margin-top: 20% !important;
 }
 .nav-link{
-    font-weight: 800 !important;
-    font-family: none !important;
-    font-size: 18px !important;
+    font-size: 24px !important;
     color: black !important;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .nav-link:hover{
-    font-weight: 800 !important;
-    font-family: none !important;
-    font-size: 18px !important;
+    font-size: 24px !important;
     color: #ED3E0F !important;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .active{
@@ -72,6 +70,7 @@
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0);
     margin-top: 20px;
+    position: absolute !important;
 }
 .light-mode-button span:nth-child(1) {
     position: absolute;
@@ -83,6 +82,7 @@
     background-color: #d6d7db;
     box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
     transition: 0.3s;
+    position: absolute !important;
 }
 
 .light-mode-button span:nth-child(2) {
@@ -95,6 +95,7 @@
     border-radius: 50%;
     box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
     transition: 0.3s;
+    position: absolute !important;
 }
 
 /* Light & Dark Mode Styles
@@ -131,10 +132,9 @@
 }
 
 .BODY[light-mode="dark"] .nav-link {
-    font-weight: 800 !important;
-    font-family: none !important;
-    font-size: 18px !important;
+    font-size: 24px !important;
     color: #808997 !important;
+    font-family: 'Barlow Condensed' !important;
 }
 
 .BODY[light-mode="dark"] .active {
