@@ -1,0 +1,160 @@
+.BODY{
+    font-family: 'Barlow Condensed' !important;
+    background: transparent url('file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/Group%20111.svg') 0% 0% no-repeat padding-box;
+}
+
+.image-landing-page{
+    width: 100% !important;
+    height: 100% !important;
+}
+.heading-landing-page{
+    font-size: 46px !important;
+}
+.heading-one-landing-page{
+    color: #ED3E0F !important;
+    font-size: 58px !important;
+    font-family: 'Barlow Condensed' !important;
+    font-weight: 600 !important;
+}
+.heading-two-landing-page{
+    color: #0EAA63 !important;
+    font-size: 58px !important;
+    font-family: 'Barlow Condensed' !important;
+    font-weight: 600 !important;
+}
+.subeading-landing-page{
+    font-size: 24px !important;
+    font-weight: medium !important;
+}
+.special-item-subheading-landing-page{
+    border-bottom: 1px solid !important;
+}
+.btn-dark{
+    font-size: 24px !important;
+}
+.btn-dark:hover{
+    font-size: 24px !important;
+    background-color: #475263 !important;
+    border-color: #475263 !important;
+}
+.left-side-items{
+    margin-top: 20% !important;
+}
+.nav-link{
+    font-weight: 800 !important;
+    font-family: none !important;
+    font-size: 18px !important;
+    color: black !important;
+}
+
+.nav-link:hover{
+    font-weight: 800 !important;
+    font-family: none !important;
+    font-size: 18px !important;
+    color: #ED3E0F !important;
+}
+
+.active{
+    color: #ED3E0F !important;
+}
+
+
+/* Light Mode Button Styles
+--------------------------- */
+
+.light-mode-button {
+    background: 0;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin-top: 20px;
+}
+.light-mode-button span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #d6d7db;
+    box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+    transition: 0.3s;
+}
+
+.light-mode-button span:nth-child(2) {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+    transition: 0.3s;
+}
+
+/* Light & Dark Mode Styles
+		--------------------------- */
+
+
+.BODY[light-mode="dark"] {
+    background-color: #2B3340;
+    color: #ced4e2;
+}
+
+.BODY[light-mode="dark"] .light-mode-button span:nth-child(1) {
+    background-color: #ced4e2;
+    color: #2B3340;
+}
+
+.BODY[light-mode="dark"] .light-mode-button span:nth-child(2) {
+    left: 65px;
+    background-color: #2B3340;
+}
+
+.BODY[light-mode="dark"] .image-landing-page{
+    width: 100% !important;
+    height: 100% !important;
+    /* display: none !important; */
+}
+
+.BODY[light-mode="dark"] a {
+    color: #808997 !important;
+}
+
+.BODY[light-mode="dark"] a:hover {
+    color: #ED3E0F !important;
+}
+
+.BODY[light-mode="dark"] .nav-link {
+    font-weight: 800 !important;
+    font-family: none !important;
+    font-size: 18px !important;
+    color: #808997 !important;
+}
+
+.BODY[light-mode="dark"] .active {
+    color: #ED3E0F !important;
+}
+
+.BODY[light-mode="dark"] .btn-dark {
+    background-color: #475263 !important;
+    border: #475263 !important;
+}
+
+.BODY[light-mode="dark"] .btn-dark:hover {
+    background-color: #ACB8CB !important;
+    border: #ACB8CB !important;
+}
+
+.BODY[light-mode="dark"] .subeading-landing-page span:nth-child(2) {
+    color: #ACB8CB !important;
+}
+
+.BODY[light-mode="dark"] .subeading-landing-page span:nth-child(2) {
+    color: #ACB8CB !important;
+}

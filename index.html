@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>UltraSoft | Digital Agency</title>
+</head>
+<body class="BODY">
+
+<!----------------------------------------- NAVBAR ----------------------------------------->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/Group%20115.png" alt="" class="navbar-logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#"> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Serices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Training</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>  
+<!----------------------------------------- NAVBAR ----------------------------------------->
+
+
+
+<!----------------------------------------- LANDING-PAGE ----------------------------------------->
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 col-sm-12 left-side-items">
+              <p class="heading-landing-page">Bring your business to customer's hand.</p>
+              <p><span class="heading-one-landing-page">ANYTIME </span> <span class="heading-two-landing-page"> ANYWHERE</span></p>
+              <button type="button" class="btn btn-dark">How it works?</button>
+              <br>
+              <br>
+              <p class="subeading-landing-page"><span class="special-item-subheading-landing-page">Why </span>do my business requiers an online platform?</p>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+              <img src="file:///C:/Web%20Development/Freelance/Upwork/Digital-Agency(ULTRASOFT)/Images/urn_aaid_sc_US_142398be-60e1-4fe3-b17e-75d32ddb1379.png" alt="" class="image-landing-page">
+          </div>
+      </div>
+       <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
+        <span></span>
+        <span></span>
+    </button>
+  </div>
+<!----------------------------------------- LANDING-PAGE ----------------------------------------->
+    
+
+
+<!----------------------------------------- SCRIPTS ----------------------------------------->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<!----------------------------------------- SCRIPTS ----------------------------------------->
+
+<script>
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") {
+        app.setAttribute("light-mode", "dark");
+    }
+    
+</script>
+
+</body>
+</html>
