@@ -55,7 +55,9 @@
 .active{
     color: #ED3E0F !important;
 }
-
+.dark{
+    cursor: pointer !important;
+}
 
 /* Light Mode Button Styles
 --------------------------- */
@@ -120,7 +122,6 @@
 .BODY[light-mode="dark"] .image-landing-page{
     width: 100% !important;
     height: 100% !important;
-    /* display: none !important; */
 }
 
 .BODY[light-mode="dark"] a {
@@ -145,6 +146,7 @@
     background-color: #475263 !important;
     border: #475263 !important;
 }
+
 
 .BODY[light-mode="dark"] .btn-dark:hover {
     background-color: #ACB8CB !important;

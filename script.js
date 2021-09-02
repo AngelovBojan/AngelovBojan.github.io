@@ -19,6 +19,18 @@ function toggle_light_mode() {
       } else {
         $(".navbar-logo").attr("src","Group%20115-dark-mode.png");
       }
+
+      if($(".dark").attr('src') != "Group%20118.svg"){
+        $(".dark").attr("src","Group%20118.svg");
+      } else {
+        $(".dark").attr("src","Group%20231.svg");
+      }
+
+      if($(".mode-text").attr(Text) != "DARK MODE"){
+        $(".mode-text").attr(Text,"DARK MODE");
+      } else {
+        $(".mode-text").attr(Text,"LIGHT MODE");
+      }
 }
 
 window.addEventListener(
