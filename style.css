@@ -25,8 +25,26 @@
 .subeading-landing-page{
     font-size: 24px !important;
     font-weight: medium !important;
+    display: inline-block;
+    padding-bottom: 0.20rem; 
+    position: relative;
 }
+.subeading-landing-page::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.25s ease-out;
+  }
+  .subeading-landing-page:hover::before {
+    width: 100%;
+  }
+  
 .special-item-subheading-landing-page{
+    padding-bottom: 0.25rem; 
     border-bottom: 1px solid !important;
 }
 .btn-dark{
